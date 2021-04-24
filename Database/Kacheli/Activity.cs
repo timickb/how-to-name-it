@@ -17,5 +17,7 @@ namespace Database.Kacheli
         public ActivityComplexity Complexity { get; set; }
         
         public virtual List<Skill> Skills { get; set; }
+        
+        
     }
 }

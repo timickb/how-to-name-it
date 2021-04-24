@@ -8,6 +8,6 @@ namespace Database.Kacheli
         
         public AdultUser Mother { get; set; }
         
-        public virtual List<Category> Spheres { get; set; }
+        public virtual List<Skill> SkillsToImprove { get; set; }
     }
 }
