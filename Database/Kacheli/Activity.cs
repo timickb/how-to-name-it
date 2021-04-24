@@ -17,12 +17,7 @@ namespace Database.Kacheli
         public ActivityComplexity Complexity { get; set; }
         
         public virtual List<Skill> Skills { get; set; }
-        
-        /// <summary>
-        /// Дети, которые выполнили данное задание
-        /// </summary>
-        public virtual List<ChildUser> Children { get; set; }
-        
-        
+
+
     }
 }

@@ -10,6 +10,5 @@ namespace Database.Kacheli
         
         public virtual List<Skill> SkillsToImprove { get; set; }
         
-        public virtual List<Activity> CompletedActivities { get; set; }
     }
 }
