@@ -10,11 +10,17 @@ namespace Database
         
         public string Surname { get; set; }
         
+        public string Email { get; set; }
+        
         public DateTime BirthDate { get; set; }
         
         public string Password { get; set; }
         
         public bool Blocked { get; set; }
+        
+        public bool Sex { get; set; }
+        
+        
         
         
     }
