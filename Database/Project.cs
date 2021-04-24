@@ -1,4 +1,6 @@
-﻿namespace Database
+﻿using System.Collections.Generic;
+
+namespace Database
 {
     public class Project : Entity
     {
@@ -6,6 +8,6 @@
 
         public string Description { get; set; }
 
-        public User Author { get; set; }
+        public virtual List<Article> News { get; set; }
     }
 }
